@@ -8,10 +8,11 @@ import {
 	whiteImg,
 	yellowImg,
 } from "../util";
+import { HighLightSlide } from "./constant.types";
 
 export const navLists = ["Store", "Mac", "iPhone", "Support"];
 
-export const hightlightsSlides = [
+export const hightlightsSlides: HighLightSlide[] = [
 	{
 		id: 1,
 		textLists: [

@@ -10,7 +10,6 @@ const Hero = () => {
 		const mediaQuery: MediaQueryList = window.matchMedia("(min-width: 760px)");
 
 		const handleMediaChange = (e: MediaQueryListEventInit) => {
-			console.log("media change");
 			setVideoSrc(e.matches ? heroVideo : smallHeroVideo);
 		};
 
@@ -50,7 +49,7 @@ const Hero = () => {
 				id="cta"
 				className="flex flex-col items-center opacity-0 traslate-y-20">
 				<a
-					href="#hightlight"
+					href="#hightlights"
 					className="btn">
 					Buy
 				</a>
